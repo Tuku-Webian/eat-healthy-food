@@ -1,0 +1,120 @@
+body{
+    font-family: 'Archivo', sans-serif;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.head{
+    display: flex;
+    margin: 5% 5%;
+}
+h1{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.fs1 {
+    width: 50%;
+    margin: auto 3%;
+}
+.fs2 img{
+    width: 80%;
+}
+a{
+    padding: 20px 40px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(orange, tomato);
+    border-radius: 30px;
+    box-shadow: 1px 1px 8px tomato;
+}
+.fs1 p{
+    padding-bottom: 8%;
+}
+span{
+    color: tomato;
+}
+.middle{
+    display: flex;
+}
+.cont{
+    position: relative;
+    text-align: left;
+}
+.fs3{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+}
+.fs3 p {
+    padding: 0 15% 8% 0;
+}
+.recipy{
+    text-align: center;
+    padding: 5%;
+}
+.recipy h1{
+    font-size: 35px;
+}
+.recipy p{
+    padding: 0 25%;
+}
+.end{
+    display: flex;
+}
+.reci1{
+    float: right;
+    margin: 0 1% 0 6%;
+    padding: 3% 2% 4% 4%;
+    box-shadow: 1px 1px 30px rgb(190, 189, 189);
+    border-radius: 25px;
+}
+.reci2{
+    float: left;
+    margin: 0 6% 0 1%;
+    padding: 3% 2% 4% 4%;
+    box-shadow: 1px 1px 30px rgb(190, 189, 189);
+    border-radius: 25px;
+}
+.end p{
+    padding: 0 10% 1% 0;
+}
+.last{
+    position: relative;
+    margin: 4% 6% 0 6%;
+    padding: 8%;
+    box-shadow: 1px 1px 30px rgb(190, 189, 189);
+    border-radius: 25px;
+}
+
+.last1 {
+    position: absolute;
+    top: 25%;
+    left: 20%;
+}
+.last2 {
+    position: absolute;
+    top: 25%;
+    left: 45%;
+}
+.last3 {
+    position: absolute;
+    top: 25%;
+    left: 70%;
+}
+.last p{
+    margin: 0;
+}
+.last h1 {
+    margin: 0 0 5% 0;
+}
+.footer{
+    margin-top: 4%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5%;
+}
+.footer h2{
+    color: rgb(92, 92, 92);
+}
